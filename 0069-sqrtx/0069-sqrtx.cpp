@@ -6,8 +6,6 @@ public:
     int r = x;
     int l = 1;
     int res = 0;
-
-        
     while(l <= r){
         int mid = l + ((r - l) / 2);
         if (mid > x / mid) {
